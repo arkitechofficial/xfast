@@ -9,7 +9,7 @@
       "message": "Keep cleanup, startup optimization, and automatic protection active for 90 days.",
       "productId": "9P3JTQCMSBG2",
       "compareToProductId": "YOUR_STANDARD_90_DAY_PRODUCT_ID",
-      "audience": "trial-expired-or-store-abandoned",
+      "audience": "any",
       "positiveActionText": "Get Offer",
       "startsUtc": "2026-06-22T00:00:00Z",
       "endsUtc": "2026-06-30T23:59:59Z",
