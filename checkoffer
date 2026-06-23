@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "offers": [
+    {
+      "id": "annual-2026-06",
+      "enabled": true,
+      "priority": 100,
+      "title": "Keep Premium for the year",
+      "message": "Continue automatic protection, cleanup, and startup optimization with the Annual plan.",
+      "productId": "9P3JTQCMSBG2",
+      "positiveActionText": "Get Offer",
+      "startsUtc": "2026-06-22T00:00:00Z",
+      "endsUtc": "2026-06-24T23:59:59Z",
+      "minimumAppVersion": "2026.2.0"
+    }
+  ]
+}
