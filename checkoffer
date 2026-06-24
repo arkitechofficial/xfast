@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "offers": [
     {
-      "id": "20260623-1",
+      "id": "20260624-1",
       "enabled": true,
       "priority": 100,
       "title": "90-day Premium Pass",
@@ -12,7 +12,7 @@
       "audience": "any",
       "positiveActionText": "Get Offer",
       "startsUtc": "2026-06-22T00:00:00Z",
-      "endsUtc": "2026-06-23T23:59:59Z",
+      "endsUtc": "2026-06-24T23:59:59Z",
       "minimumAppVersion": "2026.2.0",
       "repeatAfterHours": 12,
       "maximumShows": 5,
