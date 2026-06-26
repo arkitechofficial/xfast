@@ -1,23 +1,23 @@
 {
-  "schemaVersion": 1,
-  "offers": [
-    {
-      "id": "20260626-1",
-      "enabled": true,
-      "priority": 100,
-      "title": "90-day Premium Pass",
-      "message": "Keep cleanup, startup optimization, and automatic protection active for 90 days.",
-      "productId": "9P3JTQCMSBG2",
-      "compareToProductId": "9P3JTQCMSBG2",
-      "audience": "any",
-      "positiveActionText": "Get Offer",
-      "startsUtc": "2026-06-22T00:00:00Z",
-      "endsUtc": "2026-06-26T23:59:59Z",
-      "minimumAppVersion": "2026.2.0",
-      "repeatAfterHours": 12,
-      "maximumShows": 5,
-      "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/default_offer_image.png",
-      "logoUrl": "https://example.com/xfast-offer-logo.png"
-    }
-  ]
+"schemaVersion": 1,
+"offers": [
+{
+"id": "20260626-1",
+"enabled": true,
+"priority": 100,
+"title": "Limited-Time: Get 1 Month Free",
+"message": "Unlock 13 months of Premium for the price of 12. Claim your bonus month before the offer ends.",
+"productId": "9NKLBZ20PLPC",
+"compareToProductId": "9P3JTQCMSBG2",
+"audience": "any",
+"positiveActionText": "Claim 1 Month Free",
+"startsUtc": "2026-06-22T00:00:00Z",
+"endsUtc": "2026-06-26T23:59:59Z",
+"minimumAppVersion": "2026.2.0",
+"repeatAfterHours": 12,
+"maximumShows": 5,
+"imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/default_offer_image.png",
+"logoUrl": "https://example.com/xfast-offer-logo.png"
+}
+]
 }
