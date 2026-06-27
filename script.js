@@ -1,0 +1,1 @@
+console.log('XFast site loaded');

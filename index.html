@@ -1,287 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XFast - PC Optimizer</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XFast: PC Optimizer, RAM Booster & FPS Enhancer</title>
+<meta name="description" content="Boost your PC performance, clean junk files, optimize RAM, and improve gaming speed.">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
-            <div class="logo">XFast</div>
-            <ul>
-                <li><a href="#">Features</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Download</a></li>
-            </ul>
-        </nav>
+<header class="hero">
+  <nav>
+    <h1>XFast</h1>
+    <a class="btn" href="https://apps.microsoft.com/detail/9NW5ZJQK7RF1?ocid=xfastwebsite">Get on Microsoft Store</a>
+  </nav>
 
-        <div class="hero-content">
-            <div class="left">
-                <h1>Boost Your PC Performance</h1>
-                <p>
-                    Clean junk files, optimize memory, manage startup apps,
-                    and protect privacy — all in one powerful tool.
-                </p>
+  <section class="hero-content">
+    <h2>XFast: PC Optimizer, RAM Booster & FPS Enhancer</h2>
+    <p>Boost your PC performance, clean junk files, optimize RAM, and improve gaming speed.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://apps.microsoft.com/detail/9NW5ZJQK7RF1?ocid=xfastwebsite">Download Now</a>
+      <a class="btn secondary" href="#features">Explore Features</a>
+    </div>
+  </section>
+</header>
 
-                <div class="buttons">
-                    <button class="primary">Download Now</button>
-                    <button class="secondary">Learn More</button>
-                </div>
-            </div>
+<section id="features" class="grid">
+  <div class="card">🧹 Junk Cleaner</div>
+  <div class="card">🚀 Startup Optimizer</div>
+  <div class="card">⚡ RAM Booster</div>
+  <div class="card">🎮 FPS Enhancer</div>
+  <div class="card">🔒 Privacy Cleaner</div>
+  <div class="card">🗑 App Uninstaller</div>
+</section>
 
-            <div class="right">
-                <div class="app-preview">
-                    <div class="window-bar"></div>
-                    <div class="dashboard">
-                        <div class="circle">92%</div>
-                        <div class="stats">
-                            <div>RAM Boosted</div>
-                            <div>3.2 GB Cleaned</div>
-                            <div>12 Apps Optimized</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<section class="stats">
+  <div><h3>50K+</h3><p>Downloads</p></div>
+  <div><h3>4.8★</h3><p>User Rating</p></div>
+  <div><h3>80%</h3><p>Performance Gain</p></div>
+</section>
 
-    <section class="features">
-        <h2>Powerful Optimization Tools</h2>
+<section class="faq">
+  <h2>FAQ</h2>
+  <details><summary>Is XFast safe?</summary><p>Yes. Built for safe cleanup and optimization.</p></details>
+  <details><summary>Does it improve gaming?</summary><p>Yes, by freeing RAM and reducing startup load.</p></details>
+</section>
 
-        <div class="feature-grid">
-            <div class="card">
-                <h3>⚡ RAM Booster</h3>
-                <p>Free up memory instantly for smoother multitasking.</p>
-            </div>
+<footer>
+  <p>© 2026 XFast. All rights reserved.</p>
+</footer>
 
-            <div class="card">
-                <h3>🧹 Junk Cleaner</h3>
-                <p>Remove temporary files and reclaim valuable disk space.</p>
-            </div>
-
-            <div class="card">
-                <h3>🚀 Startup Manager</h3>
-                <p>Control startup programs to speed up boot time.</p>
-            </div>
-
-            <div class="card">
-                <h3>🔒 Privacy Cleaner</h3>
-                <p>Erase browsing traces and protect personal data.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="cta">
-        <h2>Make Your PC Faster Today</h2>
-        <p>Experience lightweight optimization built for Windows.</p>
-        <button class="primary">Get XFast</button>
-    </section>
+<script src="script.js"></script>
 </body>
 </html>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Segoe UI, sans-serif;
-    background: #0b0f19;
-    color: white;
-}
-
-.hero {
-    min-height: 100vh;
-    padding: 30px 80px;
-    background:
-        radial-gradient(circle at top right, rgba(0, 150, 255, 0.25), transparent 40%),
-        radial-gradient(circle at bottom left, rgba(0, 255, 180, 0.15), transparent 40%);
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-    gap: 30px;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-.navbar a:hover {
-    opacity: 1;
-}
-
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 100px;
-    gap: 80px;
-}
-
-.left {
-    max-width: 550px;
-}
-
-.left h1 {
-    font-size: 64px;
-    line-height: 1.1;
-    margin-bottom: 20px;
-}
-
-.left p {
-    font-size: 18px;
-    color: #c2c7d0;
-    line-height: 1.6;
-}
-
-.buttons {
-    margin-top: 30px;
-    display: flex;
-    gap: 15px;
-}
-
-button {
-    padding: 14px 28px;
-    border: none;
-    border-radius: 12px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.primary {
-    background: linear-gradient(135deg, #0096ff, #00d4ff);
-    color: white;
-}
-
-.secondary {
-    background: rgba(255,255,255,0.08);
-    color: white;
-    backdrop-filter: blur(10px);
-}
-
-.app-preview {
-    width: 420px;
-    height: 280px;
-    border-radius: 20px;
-    background: rgba(255,255,255,0.06);
-    backdrop-filter: blur(30px);
-    border: 1px solid rgba(255,255,255,0.08);
-    overflow: hidden;
-}
-
-.window-bar {
-    height: 40px;
-    background: rgba(255,255,255,0.04);
-}
-
-.dashboard {
-    padding: 30px;
-    text-align: center;
-}
-
-.circle {
-    width: 120px;
-    height: 120px;
-    margin: auto;
-    border-radius: 50%;
-    border: 8px solid #00d4ff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.stats {
-    margin-top: 25px;
-    display: grid;
-    gap: 12px;
-    color: #c2c7d0;
-}
-
-.features {
-    padding: 100px 80px;
-    text-align: center;
-}
-
-.features h2 {
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-.feature-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-
-.card {
-    background: rgba(255,255,255,0.04);
-    padding: 30px;
-    border-radius: 20px;
-    transition: 0.3s;
-}
-
-.card:hover {
-    transform: translateY(-8px);
-    background: rgba(255,255,255,0.08);
-}
-
-.card h3 {
-    margin-bottom: 15px;
-}
-
-.card p {
-    color: #c2c7d0;
-}
-
-.cta {
-    padding: 100px 20px;
-    text-align: center;
-    background: rgba(255,255,255,0.03);
-}
-
-.cta h2 {
-    font-size: 42px;
-}
-
-.cta p {
-    margin: 20px 0;
-    color: #c2c7d0;
-}
-
-@media (max-width: 900px) {
-    .hero-content {
-        flex-direction: column;
-    }
-
-    .feature-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .left h1 {
-        font-size: 42px;
-    }
-
-    .hero {
-        padding: 30px;
-    }
-}
