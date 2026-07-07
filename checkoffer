@@ -2,6 +2,24 @@
 "schemaVersion": 1,
 "offers": [
 {
+"id": "7thJulyLifetimeoffer",
+"enabled": true,
+"priority": 100,
+  "title": "🔥 80% Off Lifetime Premium",
+  "message": "This is our biggest Lifetime discount. Pay once, unlock every Premium feature forever, and save 80% before the offer expires.",
+  "positiveActionText": "Claim 80% Off"
+"productId": "9PB0HRMH80FR",
+"compareToProductId": "9PB0HRMH80FR",
+"audience": "any",
+"startsUtc": "2026-07-08T00:00:00Z",
+"endsUtc": "2026-07-09T23:59:59Z",
+"minimumAppVersion": "2026.6.0",
+"repeatAfterHours": 12,
+"maximumShows": 2,
+"imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/80pc_lifetime.png",
+"logoUrl": "https://example.com/xfast-offer-logo.png"
+},
+{
 "id": "20260626-2",
 "enabled": true,
 "priority": 100,
