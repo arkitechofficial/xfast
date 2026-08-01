@@ -32,7 +32,7 @@
       "startsUtc": "2026-08-01T00:00:00Z",
       "endsUtc": "2026-08-10T23:59:59Z",
       "minimumAppVersion": "2026.6.0",
-      "repeatAfterHours": 12,
+      "repeatAfterHours": 36,
       "maximumShows": 3,
       "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/50_pc_offer.png",
       "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
