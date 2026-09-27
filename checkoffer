@@ -235,5 +235,20 @@
       "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/lifetime-purchase.png",
       "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
     }
+  ],
+   "trialDayOffers": [
+    {
+      "id": "trial-day-2-annual-extra-7-days",
+      "enabled": true,
+      "priority": 100,
+      "trialDay": 2,
+      "title": "Get 7 extra days with the Annual Pack",
+      "message": "Upgrade to the XFast Premium Annual Pack and enjoy a full year of Premium plus 7 extra days.",
+      "productId": "9MZW47XT11MX",
+      "positiveActionText": "Get Annual Pack",
+      "maximumShows": 1,
+      "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/7daytrial-annual.png",
+      "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
+    }
   ]
 }
