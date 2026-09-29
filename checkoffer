@@ -249,6 +249,19 @@
       "maximumShows": 1,
       "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/7daytrial-annual.png",
       "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
+    },
+    {
+      "id": "trial-day-3-annual-extra-7-days",
+      "enabled": true,
+      "priority": 100,
+      "trialDay": 3,
+      "title": "Flash Offer — Don't Miss It!",
+      "message": "A limited-time bonus is live! Get 13 months of XFast Premium for the price of 12 before it ends.",
+      "productId": "9NKLBZ20PLPC",
+      "positiveActionText": "Claim My Free Month",
+      "maximumShows": 1,
+      "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/13_month_offer.png",
+      "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
     }
   ]
 }
