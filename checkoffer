@@ -37,7 +37,23 @@
       "maximumShows": 1,
       "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/lifetime-purchase.png",
       "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
-    }
+    },
+    {
+  "id": "post-trial-annual-extra-30-days",
+  "enabled": true,
+  "priority": 100,
+  "title": "Get 1 MONTH FREE with Annual Premium!",
+  "message": "Your trial has ended, but your bonus is waiting. Get 13 months of XFast Premium for the price of 12!",
+  "productId": "9NKLBZ20PLPC",
+  "compareToProductId": "",
+  "audience": "trial-expired",
+  "positiveActionText": "Claim My Free Month",
+  "minimumAppVersion": "2026.6.0",
+  "repeatAfterHours": 24,
+  "maximumShows": 100,
+  "imageUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/13_month_offer.png",
+  "logoUrl": "https://raw.githubusercontent.com/arkitechofficial/xfast/refs/heads/web/xfast_logo.png"
+}
   ],
   "trialDayOffers": [
     {
